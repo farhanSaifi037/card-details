@@ -1,0 +1,151 @@
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+.main{
+    width: 500px;
+    margin: 20px auto;
+    border: 10px solid #0a2978;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.top{
+    padding: 7% 0% 0 0;
+    background-color: #0a2978;
+}
+
+ #bottom{
+    margin-top: 70px;
+    margin-left: 50px;
+ }
+
+label{
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -30px;
+}
+input{
+    height: 25px;
+    width: 90%;
+    border: none;
+    border-radius:5px ;
+    border: 1px solid grey;
+    font-weight: 600;
+    padding: 5px;
+    margin: 10px 0 5px -30px;
+}
+#btn
+{
+    cursor: pointer;
+    /* position: relative; */
+    bottom: 110px;
+    width: 93%;
+    margin: 15px 0px 10px -30px;
+    padding: 5px;
+    background-color: 	#0a2978;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+#month{
+  width: 10%;
+}
+#year{
+    position: relative;
+    width: 10%;
+    left: 40px;
+}
+.cvv1{
+    margin-left: 90px;
+    margin-top: -100px;
+    position: relative;
+    bottom: 35px;
+    left: 0px;
+}
+.cvv{
+    position: relative;
+    bottom: 0px;
+    left: -40px;
+    width: 20%;
+}
+#btn:hover{
+    background-color: white;
+    color: 	#0a2978;
+    padding: 6px;
+}
+.flex-container{
+background-color: #fff;
+display: flex;
+flex-direction: column;
+padding: 5% 10%;
+margin: 10px 0;
+}
+
+
+
+/* card container */
+.card-container{
+    width: 300px;
+    height: 180px;
+    position:relative;
+    top: 50px;
+    right: 30px;
+    background: linear-gradient(50deg,rgb(0, 215, 61),rgb(255, 200, 0));
+    border-radius: 5px;
+    margin:19px 90px 10px;
+    color: white;
+    box-shadow: rgb(46, 150, 36) 50px -60px;
+}
+.card-number-box{
+    padding-top: 20px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.card-container .flexbox{
+    padding: 10px;
+    display: flex;
+    font-size: 19px;
+    margin-top: 60px;
+}
+.card-container .flexbox .box1{
+width: 100px;
+margin-top: -30px;
+}
+.card-container .flexbox .box2{
+    margin-left: 100px;
+    margin-top: -30px;
+    
+}
+.front{
+    transition: 0.4s ease-in-out;
+    transform:perspective(1000px) rotateY(0deg);
+}
+.back{
+    width: 300px;
+    height: 170px;
+        margin-top: -200px;
+        background: linear-gradient(30deg,rgb(52, 21, 177),rgb(225, 87, 188));
+    border-radius: 5px;
+    
+backface-visibility: hidden;
+transition: 0.5s ease-in-out;
+transform:perspective(1000px) rotateY(180deg);
+}
+.box3{
+    margin-top: 70px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+.stripe{
+    width: 100%;
+    height: 25px;
+    margin-top: 30px;
+    background-color: black;
+}
+.cvv-box{
+    background-color: #fff;
+    color: black;
+}
